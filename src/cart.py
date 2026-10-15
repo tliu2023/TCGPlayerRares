@@ -27,6 +27,29 @@ def _search_url(seller_code: str, page_number: int) -> str:
     )
 
 
+def _select_max_quantity(page: Page, row) -> int:
+    """Clicks the row's quantity <select> to a count matching real stock,
+    e.g. "of 3" -> options 1/2/3), then selects the highest value.
+
+    Confirmed live: without first clicking the select, it only ever has a
+    single "1" option (regardless of real availability) and the add-to-cart
+    button silently does nothing - the click has to land after the select
+    has been interacted with at least once.
+    """
+    select_el = row.query_selector("select")
+    if not select_el:
+        return 1
+
+    select_el.click()
+    page.wait_for_timeout(300)  # let the real option list render
+
+    values = [opt.get_attribute("value") for opt in select_el.query_selector_all("option")]
+    quantities = [int(v) for v in values if v and v.isdigit()]
+    max_quantity = max(quantities) if quantities else 1
+    select_el.select_option(str(max_quantity))
+    return max_quantity
+
+
 def add_seller_targets(page: Page, seller: dict) -> None:
     """Adds every wanted product_id in `seller` to the cart, paging through
     that seller's filtered search results until all targets are found or
@@ -64,9 +87,12 @@ def add_seller_targets(page: Page, seller: dict) -> None:
                 continue
 
             try:
+                quantity = _select_max_quantity(page, row)
                 add_button.click()
                 added.add(product_id)
-                logger.info("Added to cart: product %s from %s @ $%.2f", product_id, seller_name, price)
+                logger.info(
+                    "Added to cart: %dx product %s from %s @ $%.2f", quantity, product_id, seller_name, price,
+                )
             except Exception:
                 logger.exception("Failed to add product %s from %s", product_id, seller_name)
 
