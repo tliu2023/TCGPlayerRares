@@ -1,0 +1,615 @@
+# One Piece TCG foil Rares to track, grouped by set.
+# Each line is a direct TCGPlayer product URL (with ?Printing=Foil) for a
+# standard foil Rare. "Parallel"/"Alternate Art"/"SP"/"Manga"/"Wanted Poster"
+# chase variants are intentionally excluded - they rarely qualify as "cheap".
+# Lines starting with '#' are ignored by the scraper.
+#
+# Within each set, rares priced under 30 cents (TCGPlayer market price at
+# time of scraping) are active; rares at 30 cents and up are listed in a
+# "- 30 cents and up" sub-section and commented out.
+
+# OP01 - Romance Dawn
+https://www.tcgplayer.com/product/454625/one-piece-card-game-romance-dawn-ulti?Printing=Foil
+https://www.tcgplayer.com/product/454516/one-piece-card-game-romance-dawn-usopp?Printing=Foil
+https://www.tcgplayer.com/product/454617/one-piece-card-game-romance-dawn-overheat?Printing=Foil
+https://www.tcgplayer.com/product/454648/one-piece-card-game-romance-dawn-page-one?Printing=Foil
+https://www.tcgplayer.com/product/454556/one-piece-card-game-romance-dawn-okiku?Printing=Foil
+https://www.tcgplayer.com/product/454570/one-piece-card-game-romance-dawn-denjiro?Printing=Foil
+https://www.tcgplayer.com/product/454604/one-piece-card-game-romance-dawn-bartholomew-kuma?Printing=Foil
+https://www.tcgplayer.com/product/454631/one-piece-card-game-romance-dawn-queen?Printing=Foil
+https://www.tcgplayer.com/product/454579/one-piece-card-game-romance-dawn-xdrake-054?Printing=Foil
+https://www.tcgplayer.com/product/454646/one-piece-card-game-romance-dawn-black-maria?Printing=Foil
+https://www.tcgplayer.com/product/454565/one-piece-card-game-romance-dawn-kouzuki-momonosuke?Printing=Foil
+https://www.tcgplayer.com/product/454637/one-piece-card-game-romance-dawn-jack?Printing=Foil
+https://www.tcgplayer.com/product/454573/one-piece-card-game-romance-dawn-bepo?Printing=Foil
+https://www.tcgplayer.com/product/454597/one-piece-card-game-romance-dawn-caesar-clown?Printing=Foil
+https://www.tcgplayer.com/product/454600/one-piece-card-game-romance-dawn-jinbe-071?Printing=Foil
+https://www.tcgplayer.com/product/454596/one-piece-card-game-romance-dawn-gecko-moria?Printing=Foil
+https://www.tcgplayer.com/product/454652/one-piece-card-game-romance-dawn-xdrake-114?Printing=Foil
+
+# Romance Dawn - 30 cents and up
+# https://www.tcgplayer.com/product/454534/one-piece-card-game-romance-dawn-nami?Printing=Foil
+# https://www.tcgplayer.com/product/454610/one-piece-card-game-romance-dawn-ms-all-sunday?Printing=Foil
+# https://www.tcgplayer.com/product/454517/one-piece-card-game-romance-dawn-uta?Printing=Foil
+# https://www.tcgplayer.com/product/454538/one-piece-card-game-romance-dawn-nico-robin?Printing=Foil
+# https://www.tcgplayer.com/product/454663/one-piece-card-game-romance-dawn-thunder-bagua?Printing=Foil
+# https://www.tcgplayer.com/product/454547/one-piece-card-game-romance-dawn-gum-gum-fire-fist-pistol-red-hawk?Printing=Foil
+# https://www.tcgplayer.com/product/454583/one-piece-card-game-romance-dawn-punk-gibson?Printing=Foil
+# https://www.tcgplayer.com/product/454602/one-piece-card-game-romance-dawn-donquixote-doflamingo-073?Printing=Foil
+# https://www.tcgplayer.com/product/454529/one-piece-card-game-romance-dawn-sanji?Printing=Foil
+
+# OP02 - Paramount War
+https://www.tcgplayer.com/product/486403/one-piece-card-game-paramount-war-mr3-galdino?Printing=Foil
+https://www.tcgplayer.com/product/486341/one-piece-card-game-paramount-war-seaquake?Printing=Foil
+https://www.tcgplayer.com/product/486456/one-piece-card-game-paramount-war-judgment-of-hell?Printing=Foil
+https://www.tcgplayer.com/product/486338/one-piece-card-game-paramount-war-marco?Printing=Foil
+https://www.tcgplayer.com/product/486389/one-piece-card-game-paramount-war-inazuma?Printing=Foil
+https://www.tcgplayer.com/product/486448/one-piece-card-game-paramount-war-hannyabal?Printing=Foil
+https://www.tcgplayer.com/product/486380/one-piece-card-game-paramount-war-paradise-totsuka?Printing=Foil
+https://www.tcgplayer.com/product/486363/one-piece-card-game-paramount-war-brook?Printing=Foil
+https://www.tcgplayer.com/product/486413/one-piece-card-game-paramount-war-little-sadi?Printing=Foil
+https://www.tcgplayer.com/product/486402/one-piece-card-game-paramount-war-mr2bonkurei-bentham?Printing=Foil
+https://www.tcgplayer.com/product/486488/one-piece-card-game-paramount-war-hina?Printing=Foil
+https://www.tcgplayer.com/product/482704/one-piece-card-game-paramount-war-jozu?Printing=Foil
+https://www.tcgplayer.com/product/486492/one-piece-card-game-paramount-war-monkeydgarp-115?Printing=Foil
+https://www.tcgplayer.com/product/483095/one-piece-card-game-paramount-war-vista?Printing=Foil
+https://www.tcgplayer.com/product/486419/one-piece-card-game-paramount-war-shiki?Printing=Foil
+https://www.tcgplayer.com/product/486481/one-piece-card-game-paramount-war-smoker-102?Printing=Foil
+https://www.tcgplayer.com/product/486474/one-piece-card-game-paramount-war-koby?Printing=Foil
+https://www.tcgplayer.com/product/486547/one-piece-card-game-paramount-war-meteor-volcano?Printing=Foil
+https://www.tcgplayer.com/product/486337/one-piece-card-game-paramount-war-masked-deuce?Printing=Foil
+https://www.tcgplayer.com/product/486422/one-piece-card-game-paramount-war-shiryu?Printing=Foil
+https://www.tcgplayer.com/product/486482/one-piece-card-game-paramount-war-sengoku?Printing=Foil
+
+# Paramount War - 30 cents and up
+# https://www.tcgplayer.com/product/486397/one-piece-card-game-paramount-war-buggy?Printing=Foil
+# https://www.tcgplayer.com/product/486406/one-piece-card-game-paramount-war-gum-gum-rain?Printing=Foil
+# https://www.tcgplayer.com/product/486369/one-piece-card-game-paramount-war-yamato?Printing=Foil
+# https://www.tcgplayer.com/product/486367/one-piece-card-game-paramount-war-monkeydluffy-041?Printing=Foil
+# https://www.tcgplayer.com/product/486349/one-piece-card-game-paramount-war-carrot?Printing=Foil
+
+# OP03 - Pillars of Strength
+https://www.tcgplayer.com/product/499881/one-piece-card-game-pillars-of-strength-izo?Printing=Foil
+https://www.tcgplayer.com/product/499980/one-piece-card-game-pillars-of-strength-bell-mere?Printing=Foil
+https://www.tcgplayer.com/product/500054/one-piece-card-game-pillars-of-strength-six-king-pistol?Printing=Foil
+https://www.tcgplayer.com/product/499283/one-piece-card-game-pillars-of-strength-zeff?Printing=Foil
+https://www.tcgplayer.com/product/500085/one-piece-card-game-pillars-of-strength-charlotte-pudding?Printing=Foil
+https://www.tcgplayer.com/product/500038/one-piece-card-game-pillars-of-strength-blueno?Printing=Foil
+https://www.tcgplayer.com/product/500094/one-piece-card-game-pillars-of-strength-streusen?Printing=Foil
+https://www.tcgplayer.com/product/499997/one-piece-card-game-pillars-of-strength-kokoro?Printing=Foil
+https://www.tcgplayer.com/product/499988/one-piece-card-game-pillars-of-strength-three-thousand-worlds?Printing=Foil
+https://www.tcgplayer.com/product/500019/one-piece-card-game-pillars-of-strength-kalifa-081?Printing=Foil
+https://www.tcgplayer.com/product/500030/one-piece-card-game-pillars-of-strength-spandam?Printing=Foil
+https://www.tcgplayer.com/product/500009/one-piece-card-game-pillars-of-strength-monkeydluffy?Printing=Foil
+https://www.tcgplayer.com/product/498861/one-piece-card-game-pillars-of-strength-gin?Printing=Foil
+https://www.tcgplayer.com/product/500010/one-piece-card-game-pillars-of-strength-rob-lucci-071?Printing=Foil
+https://www.tcgplayer.com/product/499900/one-piece-card-game-pillars-of-strength-jango?Printing=Foil
+https://www.tcgplayer.com/product/498783/one-piece-card-game-pillars-of-strength-fire-fist?Printing=Foil
+https://www.tcgplayer.com/product/500037/one-piece-card-game-pillars-of-strength-brannew?Printing=Foil
+https://www.tcgplayer.com/product/499893/one-piece-card-game-pillars-of-strength-flame-emperor?Printing=Foil
+https://www.tcgplayer.com/product/499890/one-piece-card-game-pillars-of-strength-marshalldteach?Printing=Foil
+https://www.tcgplayer.com/product/500083/one-piece-card-game-pillars-of-strength-charlotte-smoothie?Printing=Foil
+https://www.tcgplayer.com/product/500107/one-piece-card-game-pillars-of-strength-buzz-cut-mochi?Printing=Foil
+https://www.tcgplayer.com/product/499910/one-piece-card-game-pillars-of-strength-deathly-poison-gas-bomb-mh5?Printing=Foil
+
+# Pillars of Strength - 30 cents and up
+# https://www.tcgplayer.com/product/500011/one-piece-card-game-pillars-of-strength-gum-gum-jet-gatling?Printing=Foil
+# https://www.tcgplayer.com/product/499973/one-piece-card-game-pillars-of-strength-kaya?Printing=Foil
+# https://www.tcgplayer.com/product/499902/one-piece-card-game-pillars-of-strength-nami-030?Printing=Foil
+# https://www.tcgplayer.com/product/500063/one-piece-card-game-pillars-of-strength-sanji?Printing=Foil
+
+# OP04 - Kingdoms of Intrigue
+https://www.tcgplayer.com/product/516795/one-piece-card-game-kingdoms-of-intrigue-cavendish?Printing=Foil
+https://www.tcgplayer.com/product/516779/one-piece-card-game-kingdoms-of-intrigue-franky?Printing=Foil
+https://www.tcgplayer.com/product/516728/one-piece-card-game-kingdoms-of-intrigue-igaram?Printing=Foil
+https://www.tcgplayer.com/product/516741/one-piece-card-game-kingdoms-of-intrigue-roronoa-zoro?Printing=Foil
+https://www.tcgplayer.com/product/516825/one-piece-card-game-kingdoms-of-intrigue-heavenly-fire?Printing=Foil
+https://www.tcgplayer.com/product/514436/one-piece-card-game-kingdoms-of-intrigue-kyros?Printing=Foil
+https://www.tcgplayer.com/product/516781/one-piece-card-game-kingdoms-of-intrigue-missvalentinemikita?Printing=Foil
+https://www.tcgplayer.com/product/516810/one-piece-card-game-kingdoms-of-intrigue-olin?Printing=Foil
+https://www.tcgplayer.com/product/516814/one-piece-card-game-kingdoms-of-intrigue-charlotte-amande?Printing=Foil
+https://www.tcgplayer.com/product/516755/one-piece-card-game-kingdoms-of-intrigue-spiderweb?Printing=Foil
+https://www.tcgplayer.com/product/516734/one-piece-card-game-kingdoms-of-intrigue-chaka?Printing=Foil
+https://www.tcgplayer.com/product/516788/one-piece-card-game-kingdoms-of-intrigue-colors-trap?Printing=Foil
+https://www.tcgplayer.com/product/516762/one-piece-card-game-kingdoms-of-intrigue-king?Printing=Foil
+https://www.tcgplayer.com/product/513306/one-piece-card-game-kingdoms-of-intrigue-trebol?Printing=Foil
+https://www.tcgplayer.com/product/516801/one-piece-card-game-kingdoms-of-intrigue-bartolomeo?Printing=Foil
+https://www.tcgplayer.com/product/516812/one-piece-card-game-kingdoms-of-intrigue-kinemon?Printing=Foil
+https://www.tcgplayer.com/product/514253/one-piece-card-game-kingdoms-of-intrigue-mr5-gem?Printing=Foil
+https://www.tcgplayer.com/product/516749/one-piece-card-game-kingdoms-of-intrigue-senor-pink?Printing=Foil
+https://www.tcgplayer.com/product/514030/one-piece-card-game-kingdoms-of-intrigue-whoswho?Printing=Foil
+https://www.tcgplayer.com/product/516805/one-piece-card-game-kingdoms-of-intrigue-trueno-bastardo?Printing=Foil
+https://www.tcgplayer.com/product/512959/one-piece-card-game-kingdoms-of-intrigue-diamante?Printing=Foil
+https://www.tcgplayer.com/product/516761/one-piece-card-game-kingdoms-of-intrigue-ulti?Printing=Foil
+
+# Kingdoms of Intrigue - 30 cents and up
+# https://www.tcgplayer.com/product/516742/one-piece-card-game-kingdoms-of-intrigue-bad-manners-kick-course?Printing=Foil
+# https://www.tcgplayer.com/product/516772/one-piece-card-game-kingdoms-of-intrigue-gum-gum-red-roc?Printing=Foil
+# https://www.tcgplayer.com/product/515280/one-piece-card-game-kingdoms-of-intrigue-caponegangbege?Printing=Foil
+# https://www.tcgplayer.com/product/516803/one-piece-card-game-kingdoms-of-intrigue-rebecca-092?Printing=Foil
+# https://www.tcgplayer.com/product/517223/one-piece-card-game-kingdoms-of-intrigue-kalifa-dash-pack?Printing=Foil
+# https://www.tcgplayer.com/product/517219/one-piece-card-game-kingdoms-of-intrigue-monkeydluffy-dash-pack?Printing=Foil
+
+# OP05 - Awakening of the New Era
+https://www.tcgplayer.com/product/528582/one-piece-card-game-awakening-of-the-new-era-because-the-side-of-justice-will-be-whichever-side-wins?Printing=Foil
+https://www.tcgplayer.com/product/528551/one-piece-card-game-awakening-of-the-new-era-fire-fist?Printing=Foil
+https://www.tcgplayer.com/product/528559/one-piece-card-game-awakening-of-the-new-era-vergo?Printing=Foil
+https://www.tcgplayer.com/product/528647/one-piece-card-game-awakening-of-the-new-era-nefeltari-vivi?Printing=Foil
+https://www.tcgplayer.com/product/528547/one-piece-card-game-awakening-of-the-new-era-morley?Printing=Foil
+https://www.tcgplayer.com/product/527873/one-piece-card-game-awakening-of-the-new-era-baby-5-034?Printing=Foil
+https://www.tcgplayer.com/product/528574/one-piece-card-game-awakening-of-the-new-era-donquixote-rosinante-030?Printing=Foil
+https://www.tcgplayer.com/product/528613/one-piece-card-game-awakening-of-the-new-era-hound-blaze?Printing=Foil
+https://www.tcgplayer.com/product/528607/one-piece-card-game-awakening-of-the-new-era-hina?Printing=Foil
+https://www.tcgplayer.com/product/528036/one-piece-card-game-awakening-of-the-new-era-mansherry?Printing=Foil
+https://www.tcgplayer.com/product/528630/one-piece-card-game-awakening-of-the-new-era-bepo?Printing=Foil
+https://www.tcgplayer.com/product/528667/one-piece-card-game-awakening-of-the-new-era-shura?Printing=Foil
+https://www.tcgplayer.com/product/528677/one-piece-card-game-awakening-of-the-new-era-two-hundred-million-volts-amaru?Printing=Foil
+https://www.tcgplayer.com/product/528666/one-piece-card-game-awakening-of-the-new-era-satori?Printing=Foil
+https://www.tcgplayer.com/product/528597/one-piece-card-game-awakening-of-the-new-era-issho?Printing=Foil
+https://www.tcgplayer.com/product/528623/one-piece-card-game-awakening-of-the-new-era-killer?Printing=Foil
+https://www.tcgplayer.com/product/528611/one-piece-card-game-awakening-of-the-new-era-xdrake?Printing=Foil
+https://www.tcgplayer.com/product/528662/one-piece-card-game-awakening-of-the-new-era-gedatsu?Printing=Foil
+https://www.tcgplayer.com/product/528663/one-piece-card-game-awakening-of-the-new-era-ohm?Printing=Foil
+
+# Awakening of the New Era - 30 cents and up
+# https://www.tcgplayer.com/product/528642/one-piece-card-game-awakening-of-the-new-era-shirahoshi?Printing=Foil
+# https://www.tcgplayer.com/product/528536/one-piece-card-game-awakening-of-the-new-era-karasu?Printing=Foil
+# https://www.tcgplayer.com/product/528656/one-piece-card-game-awakening-of-the-new-era-haute-couture-patch-work?Printing=Foil
+# https://www.tcgplayer.com/product/528545/one-piece-card-game-awakening-of-the-new-era-belo-betty-015?Printing=Foil
+# https://www.tcgplayer.com/product/528626/one-piece-card-game-awakening-of-the-new-era-zoro-juurou?Printing=Foil
+# https://www.tcgplayer.com/product/528548/one-piece-card-game-awakening-of-the-new-era-lindbergh?Printing=Foil
+# https://www.tcgplayer.com/product/528636/one-piece-card-game-awakening-of-the-new-era-when-youre-at-sea-you-fight-against-pirates?Printing=Foil
+
+# OP06 - Wings of the Captain
+https://www.tcgplayer.com/product/541068/one-piece-card-game-wings-of-the-captain-vinsmoke-ichiji-061?Printing=Foil
+https://www.tcgplayer.com/product/539787/one-piece-card-game-wings-of-the-captain-camie?Printing=Foil
+https://www.tcgplayer.com/product/539775/one-piece-card-game-wings-of-the-captain-arlong?Printing=Foil
+https://www.tcgplayer.com/product/541067/one-piece-card-game-wings-of-the-captain-brook?Printing=Foil
+https://www.tcgplayer.com/product/539277/one-piece-card-game-wings-of-the-captain-monkeydluffy?Printing=Foil
+https://www.tcgplayer.com/product/541070/one-piece-card-game-wings-of-the-captain-vinsmoke-niji-065?Printing=Foil
+https://www.tcgplayer.com/product/541075/one-piece-card-game-wings-of-the-captain-negative-hollow?Printing=Foil
+https://www.tcgplayer.com/product/541045/one-piece-card-game-wings-of-the-captain-ryuma?Printing=Foil
+https://www.tcgplayer.com/product/539290/one-piece-card-game-wings-of-the-captain-douglas-bullet?Printing=Foil
+https://www.tcgplayer.com/product/541071/one-piece-card-game-wings-of-the-captain-vinsmoke-yonji-067?Printing=Foil
+https://www.tcgplayer.com/product/539505/one-piece-card-game-wings-of-the-captain-reject?Printing=Foil
+https://www.tcgplayer.com/product/539292/one-piece-card-game-wings-of-the-captain-tot-musica?Printing=Foil
+https://www.tcgplayer.com/product/541046/one-piece-card-game-wings-of-the-captain-you-aint-even-worth-killing-time?Printing=Foil
+https://www.tcgplayer.com/product/541074/one-piece-card-game-wings-of-the-captain-black-bug?Printing=Foil
+https://www.tcgplayer.com/product/541065/one-piece-card-game-wings-of-the-captain-zephyr-navy?Printing=Foil
+https://www.tcgplayer.com/product/541057/one-piece-card-game-wings-of-the-captain-absalom?Printing=Foil
+
+# Wings of the Captain - 30 cents and up
+# https://www.tcgplayer.com/product/539782/one-piece-card-game-wings-of-the-captain-vander-decken-ix?Printing=Foil
+# https://www.tcgplayer.com/product/539504/one-piece-card-game-wings-of-the-captain-youre-the-one-who-should-disappear?Printing=Foil
+# https://www.tcgplayer.com/product/541050/one-piece-card-game-wings-of-the-captain-tashigi?Printing=Foil
+# https://www.tcgplayer.com/product/541073/one-piece-card-game-wings-of-the-captain-gravity-blade-raging-tiger?Printing=Foil
+# https://www.tcgplayer.com/product/539491/one-piece-card-game-wings-of-the-captain-o-nami?Printing=Foil
+# https://www.tcgplayer.com/product/541072/one-piece-card-game-wings-of-the-captain-gum-gum-king-kong-gatling?Printing=Foil
+# https://www.tcgplayer.com/product/539503/one-piece-card-game-wings-of-the-captain-kikunojo?Printing=Foil
+# https://www.tcgplayer.com/product/541052/one-piece-card-game-wings-of-the-captain-tsuru?Printing=Foil
+# https://www.tcgplayer.com/product/541066/one-piece-card-game-wings-of-the-captain-dr-hogback?Printing=Foil
+# https://www.tcgplayer.com/product/541047/one-piece-card-game-wings-of-the-captain-charlotte-pudding?Printing=Foil
+
+# OP07 - 500 Years in the Future
+https://www.tcgplayer.com/product/545820/one-piece-card-game-500-years-in-the-future-demonic-aura-nine-sword-style-asura-demon-nine-flash?Printing=Foil
+https://www.tcgplayer.com/product/545875/one-piece-card-game-500-years-in-the-future-kaku?Printing=Foil
+https://www.tcgplayer.com/product/545802/one-piece-card-game-500-years-in-the-future-urouge?Printing=Foil
+https://www.tcgplayer.com/product/545912/one-piece-card-game-500-years-in-the-future-lucy?Printing=Foil
+https://www.tcgplayer.com/product/545867/one-piece-card-game-500-years-in-the-future-monkeydluffy-073?Printing=Foil
+https://www.tcgplayer.com/product/545789/one-piece-card-game-500-years-in-the-future-baccarat?Printing=Foil
+https://www.tcgplayer.com/product/545843/one-piece-card-game-500-years-in-the-future-portgasdace-053?Printing=Foil
+https://www.tcgplayer.com/product/545782/one-piece-card-game-500-years-in-the-future-curlydadan?Printing=Foil
+https://www.tcgplayer.com/product/545781/one-piece-card-game-500-years-in-the-future-outlook-iii?Printing=Foil
+https://www.tcgplayer.com/product/545834/one-piece-card-game-500-years-in-the-future-trafalgar-law-047?Printing=Foil
+https://www.tcgplayer.com/product/545887/one-piece-card-game-500-years-in-the-future-monkeydluffy-091?Printing=Foil
+https://www.tcgplayer.com/product/545816/one-piece-card-game-500-years-in-the-future-fisher-tiger?Printing=Foil
+https://www.tcgplayer.com/product/545783/one-piece-card-game-500-years-in-the-future-carina?Printing=Foil
+https://www.tcgplayer.com/product/545844/one-piece-card-game-500-years-in-the-future-marguerite?Printing=Foil
+https://www.tcgplayer.com/product/545916/one-piece-card-game-500-years-in-the-future-blaze-slice?Printing=Foil
+https://www.tcgplayer.com/product/545796/one-piece-card-game-500-years-in-the-future-galaxy-wink?Printing=Foil
+
+# 500 Years in the Future - 30 cents and up
+# https://www.tcgplayer.com/product/545871/one-piece-card-game-500-years-in-the-future-were-going-to-claim-the-one-piece?Printing=Foil
+# https://www.tcgplayer.com/product/545780/one-piece-card-game-500-years-in-the-future-ain?Printing=Foil
+# https://www.tcgplayer.com/product/545803/one-piece-card-game-500-years-in-the-future-otama?Printing=Foil
+# https://www.tcgplayer.com/product/545892/one-piece-card-game-500-years-in-the-future-tempest-kick?Printing=Foil
+# https://www.tcgplayer.com/product/545847/one-piece-card-game-500-years-in-the-future-perfume-femur?Printing=Foil
+# https://www.tcgplayer.com/product/545858/one-piece-card-game-500-years-in-the-future-tony-tonychopper-066?Printing=Foil
+# https://www.tcgplayer.com/product/545904/one-piece-card-game-500-years-in-the-future-franky?Printing=Foil
+# https://www.tcgplayer.com/product/545832/one-piece-card-game-500-years-in-the-future-sengoku?Printing=Foil
+
+# OP08 - Two Legends
+https://www.tcgplayer.com/product/558128/one-piece-card-game-two-legends-whoswho?Printing=Foil
+https://www.tcgplayer.com/product/558094/one-piece-card-game-two-legends-charlotte-katakuri-063?Printing=Foil
+https://www.tcgplayer.com/product/558031/one-piece-card-game-two-legends-dalton?Printing=Foil
+https://www.tcgplayer.com/product/558129/one-piece-card-game-two-legends-page-one?Printing=Foil
+https://www.tcgplayer.com/product/558118/one-piece-card-game-two-legends-sasaki?Printing=Foil
+https://www.tcgplayer.com/product/558149/one-piece-card-game-two-legends-mont-blanc-noland?Printing=Foil
+https://www.tcgplayer.com/product/558098/one-piece-card-game-two-legends-charlotte-pudding-067?Printing=Foil
+https://www.tcgplayer.com/product/558061/one-piece-card-game-two-legends-wanda?Printing=Foil
+https://www.tcgplayer.com/product/558082/one-piece-card-game-two-legends-thank-youfor-loving-me?Printing=Foil
+https://www.tcgplayer.com/product/558056/one-piece-card-game-two-legends-pedro?Printing=Foil
+https://www.tcgplayer.com/product/558066/one-piece-card-game-two-legends-zou?Printing=Foil
+https://www.tcgplayer.com/product/558150/one-piece-card-game-two-legends-wyper?Printing=Foil
+https://www.tcgplayer.com/product/558157/one-piece-card-game-two-legends-the-earth-will-not-lose?Printing=Foil
+https://www.tcgplayer.com/product/558074/one-piece-card-game-two-legends-shakuyaku?Printing=Foil
+https://www.tcgplayer.com/product/558080/one-piece-card-game-two-legends-portgasdace?Printing=Foil
+https://www.tcgplayer.com/product/558115/one-piece-card-game-two-legends-queen?Printing=Foil
+https://www.tcgplayer.com/product/558042/one-piece-card-game-two-legends-cloven-rose?Printing=Foil
+https://www.tcgplayer.com/product/558040/one-piece-card-game-two-legends-drhiriluk?Printing=Foil
+https://www.tcgplayer.com/product/558038/one-piece-card-game-two-legends-drkureha?Printing=Foil
+https://www.tcgplayer.com/product/558091/one-piece-card-game-two-legends-king-060?Printing=Foil
+https://www.tcgplayer.com/product/558131/one-piece-card-game-two-legends-imperial-flame?Printing=Foil
+https://www.tcgplayer.com/product/558156/one-piece-card-game-two-legends-s-hawk?Printing=Foil
+https://www.tcgplayer.com/product/558037/one-piece-card-game-two-legends-wapol?Printing=Foil
+
+# Two Legends - 30 cents and up
+# https://www.tcgplayer.com/product/558063/one-piece-card-game-two-legends-electrical-luna?Printing=Foil
+# https://www.tcgplayer.com/product/558111/one-piece-card-game-two-legends-conquest-of-the-sea?Printing=Foil
+# https://www.tcgplayer.com/product/558075/one-piece-card-game-two-legends-jozu?Printing=Foil
+
+# OP09 - Emperors in the New World
+https://www.tcgplayer.com/product/596991/one-piece-card-game-emperors-in-the-new-world-mr3galdino?Printing=Foil
+https://www.tcgplayer.com/product/597046/one-piece-card-game-emperors-in-the-new-world-professor-clover?Printing=Foil
+https://www.tcgplayer.com/product/596983/one-piece-card-game-emperors-in-the-new-world-buggy-051?Printing=Foil
+https://www.tcgplayer.com/product/597039/one-piece-card-game-emperors-in-the-new-world-laffitte?Printing=Foil
+https://www.tcgplayer.com/product/597027/one-piece-card-game-emperors-in-the-new-world-jesus-burgess?Printing=Foil
+https://www.tcgplayer.com/product/596992/one-piece-card-game-emperors-in-the-new-world-cross-guild?Printing=Foil
+https://www.tcgplayer.com/product/596921/one-piece-card-game-emperors-in-the-new-world-uta?Printing=Foil
+https://www.tcgplayer.com/product/597049/one-piece-card-game-emperors-in-the-new-world-sabo-104?Printing=Foil
+https://www.tcgplayer.com/product/597016/one-piece-card-game-emperors-in-the-new-world-roronoa-zoro-076?Printing=Foil
+https://www.tcgplayer.com/product/597024/one-piece-card-game-emperors-in-the-new-world-van-augur?Printing=Foil
+https://www.tcgplayer.com/product/597031/one-piece-card-game-emperors-in-the-new-world-doc-q?Printing=Foil
+https://www.tcgplayer.com/product/596944/one-piece-card-game-emperors-in-the-new-world-come-on-well-fight-you?Printing=Foil
+https://www.tcgplayer.com/product/596937/one-piece-card-game-emperors-in-the-new-world-yasopp?Printing=Foil
+https://www.tcgplayer.com/product/596928/one-piece-card-game-emperors-in-the-new-world-silvers-rayleigh?Printing=Foil
+https://www.tcgplayer.com/product/596939/one-piece-card-game-emperors-in-the-new-world-luckyroux?Printing=Foil
+https://www.tcgplayer.com/product/596960/one-piece-card-game-emperors-in-the-new-world-perona?Printing=Foil
+https://www.tcgplayer.com/product/597045/one-piece-card-game-emperors-in-the-new-world-kuzan?Printing=Foil
+https://www.tcgplayer.com/product/596957/one-piece-card-game-emperors-in-the-new-world-donquixote-doflamingo?Printing=Foil
+https://www.tcgplayer.com/product/596967/one-piece-card-game-emperors-in-the-new-world-gum-gum-cuatro-jet-cross-shock-bazooka?Printing=Foil
+https://www.tcgplayer.com/product/596952/one-piece-card-game-emperors-in-the-new-world-sakazuki?Printing=Foil
+
+# Emperors in the New World - 30 cents and up
+# https://www.tcgplayer.com/product/597018/one-piece-card-game-emperors-in-the-new-world-gum-gum-giant?Printing=Foil
+# https://www.tcgplayer.com/product/597052/one-piece-card-game-emperors-in-the-new-world-nico-robin-107?Printing=Foil
+# https://www.tcgplayer.com/product/597040/one-piece-card-game-emperors-in-the-new-world-my-erabegins?Printing=Foil
+# https://www.tcgplayer.com/product/596981/one-piece-card-game-emperors-in-the-new-world-nami-050?Printing=Foil
+# https://www.tcgplayer.com/product/597063/one-piece-card-game-emperors-in-the-new-world-dereshi?Printing=Foil
+# https://www.tcgplayer.com/product/597007/one-piece-card-game-emperors-in-the-new-world-trafalgar-law-069?Printing=Foil
+
+# OP10 - Royal Blood
+https://www.tcgplayer.com/product/617105/one-piece-card-game-royal-blood-violet?Printing=Foil
+https://www.tcgplayer.com/product/617124/one-piece-card-game-royal-blood-i-do-not-forgive-those-who-laugh-at-my-family?Printing=Foil
+https://www.tcgplayer.com/product/617102/one-piece-card-game-royal-blood-followmeandiwillguideyou?Printing=Foil
+https://www.tcgplayer.com/product/617106/one-piece-card-game-royal-blood-vinsmoke-sanji?Printing=Foil
+https://www.tcgplayer.com/product/617133/one-piece-card-game-royal-blood-shiryu?Printing=Foil
+https://www.tcgplayer.com/product/617146/one-piece-card-game-royal-blood-liberation?Printing=Foil
+https://www.tcgplayer.com/product/617042/one-piece-card-game-royal-blood-smiley?Printing=Foil
+https://www.tcgplayer.com/product/617036/one-piece-card-game-royal-blood-vergo?Printing=Foil
+https://www.tcgplayer.com/product/617099/one-piece-card-game-royal-blood-leo?Printing=Foil
+https://www.tcgplayer.com/product/617097/one-piece-card-game-royal-blood-marco?Printing=Foil
+https://www.tcgplayer.com/product/617158/one-piece-card-game-royal-blood-basil-hawkins?Printing=Foil
+https://www.tcgplayer.com/product/617061/one-piece-card-game-royal-blood-enel?Printing=Foil
+https://www.tcgplayer.com/product/617143/one-piece-card-game-royal-blood-roronoa-zoro-095?Printing=Foil
+https://www.tcgplayer.com/product/617065/one-piece-card-game-royal-blood-dracule-mihawk?Printing=Foil
+https://www.tcgplayer.com/product/617091/one-piece-card-game-royal-blood-sabo?Printing=Foil
+https://www.tcgplayer.com/product/617167/one-piece-card-game-royal-blood-damned-punk?Printing=Foil
+https://www.tcgplayer.com/product/617152/one-piece-card-game-royal-blood-caponegangbege?Printing=Foil
+https://www.tcgplayer.com/product/617137/one-piece-card-game-royal-blood-franky-090?Printing=Foil
+https://www.tcgplayer.com/product/617080/one-piece-card-game-royal-blood-radio-knife?Printing=Foil
+https://www.tcgplayer.com/product/617075/one-piece-card-game-royal-blood-lim?Printing=Foil
+
+# Royal Blood - 30 cents and up
+# https://www.tcgplayer.com/product/617110/one-piece-card-game-royal-blood-senor-pink?Printing=Foil
+# https://www.tcgplayer.com/product/617108/one-piece-card-game-royal-blood-sugar-065?Printing=Foil
+# https://www.tcgplayer.com/product/617085/one-piece-card-game-royal-blood-cavendish-045?Printing=Foil
+# https://www.tcgplayer.com/product/617160/one-piece-card-game-royal-blood-monkeydluffy-111?Printing=Foil
+# https://www.tcgplayer.com/product/617044/one-piece-card-game-royal-blood-tony-tonychopper-011?Printing=Foil
+# https://www.tcgplayer.com/product/617053/one-piece-card-game-royal-blood-divine-departure?Printing=Foil
+
+# OP11 - A Fist of Divine Speed
+https://www.tcgplayer.com/product/632392/one-piece-card-game-a-fist-of-divine-speed-shirahoshi-030?Printing=Foil
+https://www.tcgplayer.com/product/632390/one-piece-card-game-a-fist-of-divine-speed-lord-of-the-coast?Printing=Foil
+https://www.tcgplayer.com/product/632456/one-piece-card-game-a-fist-of-divine-speed-caribou?Printing=Foil
+https://www.tcgplayer.com/product/632371/one-piece-card-game-a-fist-of-divine-speed-prince-grus?Printing=Foil
+https://www.tcgplayer.com/product/632452/one-piece-card-game-a-fist-of-divine-speed-gear-two?Printing=Foil
+https://www.tcgplayer.com/product/632376/one-piece-card-game-a-fist-of-divine-speed-honesty-impact?Printing=Foil
+https://www.tcgplayer.com/product/632428/one-piece-card-game-a-fist-of-divine-speed-lets-crash-this-wedding?Printing=Foil
+https://www.tcgplayer.com/product/632475/one-piece-card-game-a-fist-of-divine-speed-im-gonna-be-a-navy-officer?Printing=Foil
+https://www.tcgplayer.com/product/632364/one-piece-card-game-a-fist-of-divine-speed-doll?Printing=Foil
+https://www.tcgplayer.com/product/632481/one-piece-card-game-a-fist-of-divine-speed-shirley?Printing=Foil
+https://www.tcgplayer.com/product/632412/one-piece-card-game-a-fist-of-divine-speed-vinsmoke-reiju?Printing=Foil
+https://www.tcgplayer.com/product/632455/one-piece-card-game-a-fist-of-divine-speed-aramaki?Printing=Foil
+https://www.tcgplayer.com/product/632401/one-piece-card-game-a-fist-of-divine-speed-gum-gum-elephant-gatling?Printing=Foil
+https://www.tcgplayer.com/product/632492/one-piece-card-game-a-fist-of-divine-speed-gum-gum-fire-fist-pistol-red-hawk?Printing=Foil
+https://www.tcgplayer.com/product/632444/one-piece-card-game-a-fist-of-divine-speed-charlotte-linlin?Printing=Foil
+https://www.tcgplayer.com/product/632435/one-piece-card-game-a-fist-of-divine-speed-charlotte-oven?Printing=Foil
+https://www.tcgplayer.com/product/632415/one-piece-card-game-a-fist-of-divine-speed-carrot?Printing=Foil
+https://www.tcgplayer.com/product/632486/one-piece-card-game-a-fist-of-divine-speed-neptune?Printing=Foil
+https://www.tcgplayer.com/product/632372/one-piece-card-game-a-fist-of-divine-speed-borsalino?Printing=Foil
+https://www.tcgplayer.com/product/632424/one-piece-card-game-a-fist-of-divine-speed-brook?Printing=Foil
+https://www.tcgplayer.com/product/632439/one-piece-card-game-a-fist-of-divine-speed-charlotte-brulee?Printing=Foil
+https://www.tcgplayer.com/product/632414/one-piece-card-game-a-fist-of-divine-speed-caponegangbege-048?Printing=Foil
+https://www.tcgplayer.com/product/632457/one-piece-card-game-a-fist-of-divine-speed-kuzan?Printing=Foil
+https://www.tcgplayer.com/product/632384/one-piece-card-game-a-fist-of-divine-speed-arlong?Printing=Foil
+https://www.tcgplayer.com/product/632442/one-piece-card-game-a-fist-of-divine-speed-charlotte-perospero?Printing=Foil
+
+# A Fist of Divine Speed - 30 cents and up
+# https://www.tcgplayer.com/product/632483/one-piece-card-game-a-fist-of-divine-speed-zeus?Printing=Foil
+
+# OP12 - Legacy of the Master
+https://www.tcgplayer.com/product/643730/one-piece-card-game-legacy-of-the-master-shakuyaku?Printing=Foil
+https://www.tcgplayer.com/product/643809/one-piece-card-game-legacy-of-the-master-sanji-070?Printing=Foil
+https://www.tcgplayer.com/product/643854/one-piece-card-game-legacy-of-the-master-donquixote-rosinante-108?Printing=Foil
+https://www.tcgplayer.com/product/643833/one-piece-card-game-legacy-of-the-master-hack?Printing=Foil
+https://www.tcgplayer.com/product/643828/one-piece-card-game-legacy-of-the-master-koala-086?Printing=Foil
+https://www.tcgplayer.com/product/643844/one-piece-card-game-legacy-of-the-master-kalgara?Printing=Foil
+https://www.tcgplayer.com/product/643842/one-piece-card-game-legacy-of-the-master-captains-assembled?Printing=Foil
+https://www.tcgplayer.com/product/643820/one-piece-card-game-legacy-of-the-master-luffy-is-the-man-who-will-be-king-of-the-pirates?Printing=Foil
+https://www.tcgplayer.com/product/643777/one-piece-card-game-legacy-of-the-master-kuzan-043?Printing=Foil
+https://www.tcgplayer.com/product/643760/one-piece-card-game-legacy-of-the-master-tashigi?Printing=Foil
+https://www.tcgplayer.com/product/643756/one-piece-card-game-legacy-of-the-master-kouzuki-hiyori?Printing=Foil
+https://www.tcgplayer.com/product/643734/one-piece-card-game-legacy-of-the-master-jinbe?Printing=Foil
+https://www.tcgplayer.com/product/643853/one-piece-card-game-legacy-of-the-master-donquixote-doflamingo?Printing=Foil
+https://www.tcgplayer.com/product/643845/one-piece-card-game-legacy-of-the-master-sabo?Printing=Foil
+https://www.tcgplayer.com/product/643864/one-piece-card-game-legacy-of-the-master-slam-gibson?Printing=Foil
+https://www.tcgplayer.com/product/643788/one-piece-card-game-legacy-of-the-master-borsalino?Printing=Foil
+https://www.tcgplayer.com/product/643800/one-piece-card-game-legacy-of-the-master-vinsmoke-sora?Printing=Foil
+https://www.tcgplayer.com/product/643782/one-piece-card-game-legacy-of-the-master-sengoku?Printing=Foil
+
+# Legacy of the Master - 30 cents and up
+# https://www.tcgplayer.com/product/643859/one-piece-card-game-legacy-of-the-master-baby-5-112?Printing=Foil
+# https://www.tcgplayer.com/product/643745/one-piece-card-game-legacy-of-the-master-color-of-the-supreme-king-haki?Printing=Foil
+# https://www.tcgplayer.com/product/643768/one-piece-card-game-legacy-of-the-master-demon-aura-nine-sword-style-asura-blades-drawn-dead-mans-game?Printing=Foil
+# https://www.tcgplayer.com/product/643811/one-piece-card-game-legacy-of-the-master-charlotte-pudding?Printing=Foil
+# https://www.tcgplayer.com/product/643779/one-piece-card-game-legacy-of-the-master-sakazuki?Printing=Foil
+# https://www.tcgplayer.com/product/643771/one-piece-card-game-legacy-of-the-master-luffy-is-the-man-who-will-become-the-king-of-pirates?Printing=Foil
+# https://www.tcgplayer.com/product/643796/one-piece-card-game-legacy-of-the-master-boeuf-burst?Printing=Foil
+# https://www.tcgplayer.com/product/643732/one-piece-card-game-legacy-of-the-master-shanks-008?Printing=Foil
+
+# OP13 - Carrying On His Will
+https://www.tcgplayer.com/product/657266/one-piece-card-game-carrying-on-his-will-nefeltari-vivi?Printing=Foil
+https://www.tcgplayer.com/product/657366/one-piece-card-game-carrying-on-his-will-st-marcus-mars?Printing=Foil
+https://www.tcgplayer.com/product/657346/one-piece-card-game-carrying-on-his-will-st-ethanbaron-v-nusjuro?Printing=Foil
+https://www.tcgplayer.com/product/657295/one-piece-card-game-carrying-on-his-will-roronoa-zoro?Printing=Foil
+https://www.tcgplayer.com/product/657382/one-piece-card-game-carrying-on-his-will-kouzuki-hiyori?Printing=Foil
+https://www.tcgplayer.com/product/657355/one-piece-card-game-carrying-on-his-will-st-shepherd-ju-peter?Printing=Foil
+https://www.tcgplayer.com/product/657352/one-piece-card-game-carrying-on-his-will-st-jaygarcia-saturn?Printing=Foil
+https://www.tcgplayer.com/product/657283/one-piece-card-game-carrying-on-his-will-sanji?Printing=Foil
+https://www.tcgplayer.com/product/657399/one-piece-card-game-carrying-on-his-will-gum-gum-dawn-stamp?Printing=Foil
+https://www.tcgplayer.com/product/657310/one-piece-card-game-carrying-on-his-will-boa-hancock?Printing=Foil
+https://www.tcgplayer.com/product/657327/one-piece-card-game-carrying-on-his-will-shanks-065?Printing=Foil
+https://www.tcgplayer.com/product/657302/one-piece-card-game-carrying-on-his-will-otama?Printing=Foil
+https://www.tcgplayer.com/product/657331/one-piece-card-game-carrying-on-his-will-scopper-gaban?Printing=Foil
+https://www.tcgplayer.com/product/657336/one-piece-card-game-carrying-on-his-will-buggy?Printing=Foil
+https://www.tcgplayer.com/product/657305/one-piece-card-game-carrying-on-his-will-vista?Printing=Foil
+https://www.tcgplayer.com/product/657318/one-piece-card-game-carrying-on-his-will-if-i-bowed-down-to-power-whats-the-point-in-living?Printing=Foil
+https://www.tcgplayer.com/product/657395/one-piece-card-game-carrying-on-his-will-s-snake?Printing=Foil
+https://www.tcgplayer.com/product/657272/one-piece-card-game-carrying-on-his-will-monkeyddragon?Printing=Foil
+https://www.tcgplayer.com/product/657274/one-piece-card-game-carrying-on-his-will-but-ace-here-said-you-deserved-it?Printing=Foil
+
+# Carrying On His Will - 30 cents and up
+# https://www.tcgplayer.com/product/657289/one-piece-card-game-carrying-on-his-will-trafalgar-law?Printing=Foil
+# https://www.tcgplayer.com/product/657393/one-piece-card-game-carrying-on-his-will-lilith?Printing=Foil
+# https://www.tcgplayer.com/product/657270/one-piece-card-game-carrying-on-his-will-monkeydgarp?Printing=Foil
+# https://www.tcgplayer.com/product/657340/one-piece-card-game-carrying-on-his-will-divine-departure?Printing=Foil
+# https://www.tcgplayer.com/product/657373/one-piece-card-game-carrying-on-his-will-the-five-elders-are-at-your-service?Printing=Foil
+# https://www.tcgplayer.com/product/657298/one-piece-card-game-carrying-on-his-will-i-know-youre-strong-so-ill-go-all-out-from-the-very-start?Printing=Foil
+# https://www.tcgplayer.com/product/657362/one-piece-card-game-carrying-on-his-will-st-topman-warcury?Printing=Foil
+
+# OP14/EB04 - The Azure Sea's Seven (combined set listing on TCGPlayer)
+https://www.tcgplayer.com/product/671438/one-piece-card-game-the-azure-seas-seven-silvers-rayleigh?Printing=Foil
+https://www.tcgplayer.com/product/671360/one-piece-card-game-the-azure-seas-seven-xdrake?Printing=Foil
+https://www.tcgplayer.com/product/666539/one-piece-card-game-the-azure-seas-seven-kaido?Printing=Foil
+https://www.tcgplayer.com/product/668528/one-piece-card-game-the-azure-seas-seven-boa-hancock-eb04-027?Printing=Foil
+https://www.tcgplayer.com/product/671359/one-piece-card-game-the-azure-seas-seven-eustasscaptainkid-op14-014?Printing=Foil
+https://www.tcgplayer.com/product/672111/one-piece-card-game-the-azure-seas-seven-roronoa-zoro-op14-015?Printing=Foil
+https://www.tcgplayer.com/product/671419/one-piece-card-game-the-azure-seas-seven-missvalentinemikita?Printing=Foil
+https://www.tcgplayer.com/product/668529/one-piece-card-game-the-azure-seas-seven-chaka-and-pell-eb04-023?Printing=Foil
+https://www.tcgplayer.com/product/671409/one-piece-card-game-the-azure-seas-seven-monet?Printing=Foil
+https://www.tcgplayer.com/product/666530/one-piece-card-game-the-azure-seas-seven-sugar?Printing=Foil
+https://www.tcgplayer.com/product/671375/one-piece-card-game-the-azure-seas-seven-monkeydluffy-op14-34?Printing=Foil
+https://www.tcgplayer.com/product/671398/one-piece-card-game-the-azure-seas-seven-vergo?Printing=Foil
+https://www.tcgplayer.com/product/671386/one-piece-card-game-the-azure-seas-seven-shirahoshi?Printing=Foil
+https://www.tcgplayer.com/product/671411/one-piece-card-game-the-azure-seas-seven-ever-white?Printing=Foil
+https://www.tcgplayer.com/product/671423/one-piece-card-game-the-azure-seas-seven-mr3galdino?Printing=Foil
+https://www.tcgplayer.com/product/666534/one-piece-card-game-the-azure-seas-seven-jinbe-eb04-015?Printing=Foil
+https://www.tcgplayer.com/product/671378/one-piece-card-game-the-azure-seas-seven-for-fun?Printing=Foil
+https://www.tcgplayer.com/product/671382/one-piece-card-game-the-azure-seas-seven-aladine?Printing=Foil
+https://www.tcgplayer.com/product/671347/one-piece-card-game-the-azure-seas-seven-eustasscaptainkid-eb04-039?Printing=Foil
+https://www.tcgplayer.com/product/671381/one-piece-card-game-the-azure-seas-seven-arlong?Printing=Foil
+https://www.tcgplayer.com/product/671372/one-piece-card-game-the-azure-seas-seven-tashigi?Printing=Foil
+https://www.tcgplayer.com/product/671396/one-piece-card-game-the-azure-seas-seven-ocean-current-shoulder-throw?Printing=Foil
+https://www.tcgplayer.com/product/666535/one-piece-card-game-the-azure-seas-seven-eleclaw?Printing=Foil
+https://www.tcgplayer.com/product/671339/one-piece-card-game-the-azure-seas-seven-ice-time?Printing=Foil
+
+# The Azure Sea's Seven - 30 cents and up
+# https://www.tcgplayer.com/product/671333/one-piece-card-game-the-azure-seas-seven-megalo?Printing=Foil
+# https://www.tcgplayer.com/product/671427/one-piece-card-game-the-azure-seas-seven-ground-death?Printing=Foil
+# https://www.tcgplayer.com/product/671342/one-piece-card-game-the-azure-seas-seven-queen?Printing=Foil
+# https://www.tcgplayer.com/product/671341/one-piece-card-game-the-azure-seas-seven-king?Printing=Foil
+# https://www.tcgplayer.com/product/671447/one-piece-card-game-the-azure-seas-seven-youll-frighten-me?Printing=Foil
+# https://www.tcgplayer.com/product/671440/one-piece-card-game-the-azure-seas-seven-dr-hogback?Printing=Foil
+# https://www.tcgplayer.com/product/671348/one-piece-card-game-the-azure-seas-seven-flame-dragon-torch?Printing=Foil
+# https://www.tcgplayer.com/product/671441/one-piece-card-game-the-azure-seas-seven-perona-op14-111?Printing=Foil
+# https://www.tcgplayer.com/product/671362/one-piece-card-game-the-azure-seas-seven-time-for-the-counterattack?Printing=Foil
+# https://www.tcgplayer.com/product/671422/one-piece-card-game-the-azure-seas-seven-mr1dazbonez?Printing=Foil
+# https://www.tcgplayer.com/product/671336/one-piece-card-game-the-azure-seas-seven-issho-eb04-022?Printing=Foil
+# https://www.tcgplayer.com/product/671370/one-piece-card-game-the-azure-seas-seven-shanks?Printing=Foil
+# https://www.tcgplayer.com/product/671431/one-piece-card-game-the-azure-seas-seven-absalom?Printing=Foil
+# https://www.tcgplayer.com/product/671366/one-piece-card-game-the-azure-seas-seven-kikunojo-op14-023?Printing=Foil
+
+# OP15 - Adventure on Kami's Island
+https://www.tcgplayer.com/product/685364/one-piece-card-game-adventure-on-kamis-island-arlong?Printing=Foil
+https://www.tcgplayer.com/product/685410/one-piece-card-game-adventure-on-kamis-island-ohm?Printing=Foil
+https://www.tcgplayer.com/product/685309/one-piece-card-game-adventure-on-kamis-island-kaku?Printing=Foil
+https://www.tcgplayer.com/product/685331/one-piece-card-game-adventure-on-kamis-island-black-rope-dragon-twister?Printing=Foil
+https://www.tcgplayer.com/product/685299/one-piece-card-game-adventure-on-kamis-island-smoker-and-tashigi?Printing=Foil
+https://www.tcgplayer.com/product/685365/one-piece-card-game-adventure-on-kamis-island-usopp?Printing=Foil
+https://www.tcgplayer.com/product/685450/one-piece-card-game-adventure-on-kamis-island-swallow-bond-en-avant?Printing=Foil
+https://www.tcgplayer.com/product/685381/one-piece-card-game-adventure-on-kamis-island-its-an-order-do-not-defy-me?Printing=Foil
+https://www.tcgplayer.com/product/685366/one-piece-card-game-adventure-on-kamis-island-kuro?Printing=Foil
+https://www.tcgplayer.com/product/685464/one-piece-card-game-adventure-on-kamis-island-nico-robin-op15-109?Printing=Foil
+https://www.tcgplayer.com/product/685340/one-piece-card-game-adventure-on-kamis-island-alvida?Printing=Foil
+https://www.tcgplayer.com/product/685351/one-piece-card-game-adventure-on-kamis-island-pearl?Printing=Foil
+https://www.tcgplayer.com/product/685325/one-piece-card-game-adventure-on-kamis-island-bartholomew-kuma-eb04-054?Printing=Foil
+https://www.tcgplayer.com/product/685320/one-piece-card-game-adventure-on-kamis-island-ill-whip-you-into-shape?Printing=Foil
+https://www.tcgplayer.com/product/685316/one-piece-card-game-adventure-on-kamis-island-helmeppo?Printing=Foil
+https://www.tcgplayer.com/product/685322/one-piece-card-game-adventure-on-kamis-island-sanji-eb04-052?Printing=Foil
+https://www.tcgplayer.com/product/685305/one-piece-card-game-adventure-on-kamis-island-distorted-future?Printing=Foil
+https://www.tcgplayer.com/product/685360/one-piece-card-game-adventure-on-kamis-island-fire-fist?Printing=Foil
+https://www.tcgplayer.com/product/685474/one-piece-card-game-adventure-on-kamis-island-gum-gum-golden-rifle?Printing=Foil
+https://www.tcgplayer.com/product/685386/one-piece-card-game-adventure-on-kamis-island-kyros?Printing=Foil
+https://www.tcgplayer.com/product/685402/one-piece-card-game-adventure-on-kamis-island-go-ahead-and-use-em-mr-luffy?Printing=Foil
+https://www.tcgplayer.com/product/685413/one-piece-card-game-adventure-on-kamis-island-gedatsu?Printing=Foil
+https://www.tcgplayer.com/product/685457/one-piece-card-game-adventure-on-kamis-island-ganfall?Printing=Foil
+https://www.tcgplayer.com/product/685354/one-piece-card-game-adventure-on-kamis-island-bartolomeo?Printing=Foil
+https://www.tcgplayer.com/product/685432/one-piece-card-game-adventure-on-kamis-island-oars?Printing=Foil
+
+# Adventure on Kami's Island - 30 cents and up
+# https://www.tcgplayer.com/product/685441/one-piece-card-game-adventure-on-kamis-island-pirates-docking-six?Printing=Foil
+# https://www.tcgplayer.com/product/685297/one-piece-card-game-adventure-on-kamis-island-jewelry-bonney-eb04-002?Printing=Foil
+# https://www.tcgplayer.com/product/685445/one-piece-card-game-adventure-on-kamis-island-monkeydluffy-op15-092?Printing=Foil
+# https://www.tcgplayer.com/product/685427/one-piece-card-game-adventure-on-kamis-island-lightning-dragon?Printing=Foil
+# https://www.tcgplayer.com/product/685417/one-piece-card-game-adventure-on-kamis-island-shura?Printing=Foil
+# https://www.tcgplayer.com/product/685437/one-piece-card-game-adventure-on-kamis-island-tony-tonychopper-op15-085?Printing=Foil
+# https://www.tcgplayer.com/product/685463/one-piece-card-game-adventure-on-kamis-island-nami-op15-108?Printing=Foil
+# https://www.tcgplayer.com/product/685416/one-piece-card-game-adventure-on-kamis-island-satori?Printing=Foil
+# https://www.tcgplayer.com/product/685392/one-piece-card-game-adventure-on-kamis-island-sanji-op15-047?Printing=Foil
+# https://www.tcgplayer.com/product/685384/one-piece-card-game-adventure-on-kamis-island-viola?Printing=Foil
+
+# OP16 - The Time of Battle
+https://www.tcgplayer.com/product/696040/one-piece-card-game-the-time-of-battle-mr1dazbonez?Printing=Foil
+https://www.tcgplayer.com/product/696041/one-piece-card-game-the-time-of-battle-mr2bonkureibentham-055?Printing=Foil
+https://www.tcgplayer.com/product/694642/one-piece-card-game-the-time-of-battle-kouzuki-momonosuke-085?Printing=Foil
+https://www.tcgplayer.com/product/696053/one-piece-card-game-the-time-of-battle-koby?Printing=Foil
+https://www.tcgplayer.com/product/696000/one-piece-card-game-the-time-of-battle-littleoars-jr?Printing=Foil
+https://www.tcgplayer.com/product/696046/one-piece-card-game-the-time-of-battle-the-prisoners-are-rioting?Printing=Foil
+https://www.tcgplayer.com/product/696078/one-piece-card-game-the-time-of-battle-monkeydluffy-095?Printing=Foil
+https://www.tcgplayer.com/product/693827/one-piece-card-game-the-time-of-battle-marco?Printing=Foil
+https://www.tcgplayer.com/product/694978/one-piece-card-game-the-time-of-battle-borsalino?Printing=Foil
+https://www.tcgplayer.com/product/695995/one-piece-card-game-the-time-of-battle-vista?Printing=Foil
+https://www.tcgplayer.com/product/696064/one-piece-card-game-the-time-of-battle-buddha-sengoku?Printing=Foil
+https://www.tcgplayer.com/product/696086/one-piece-card-game-the-time-of-battle-catarina-devon?Printing=Foil
+https://www.tcgplayer.com/product/696019/one-piece-card-game-the-time-of-battle-monkeydluffy-034?Printing=Foil
+https://www.tcgplayer.com/product/696050/one-piece-card-game-the-time-of-battle-kuzan?Printing=Foil
+https://www.tcgplayer.com/product/696099/one-piece-card-game-the-time-of-battle-zehahahahaha?Printing=Foil
+https://www.tcgplayer.com/product/696024/one-piece-card-game-the-time-of-battle-lets-go-to-the-navy-headquarters?Printing=Foil
+https://www.tcgplayer.com/product/695997/one-piece-card-game-the-time-of-battle-bennbeckman?Printing=Foil
+https://www.tcgplayer.com/product/696093/one-piece-card-game-the-time-of-battle-vasco-shot?Printing=Foil
+https://www.tcgplayer.com/product/696013/one-piece-card-game-the-time-of-battle-jinbe-027?Printing=Foil
+https://www.tcgplayer.com/product/696088/one-piece-card-game-the-time-of-battle-sanjuanwolf?Printing=Foil
+https://www.tcgplayer.com/product/696016/one-piece-card-game-the-time-of-battle-trafalgar-law-030?Printing=Foil
+
+# The Time of Battle - 30 cents and up
+# https://www.tcgplayer.com/product/696029/one-piece-card-game-the-time-of-battle-prisoner-of-impel-down?Printing=Foil
+# https://www.tcgplayer.com/product/696079/one-piece-card-game-the-time-of-battle-yamato-096?Printing=Foil
+# https://www.tcgplayer.com/product/696080/one-piece-card-game-the-time-of-battle-yamato-097?Printing=Foil
+# https://www.tcgplayer.com/product/696074/one-piece-card-game-the-time-of-battle-nami?Printing=Foil
+# https://www.tcgplayer.com/product/696004/one-piece-card-game-the-time-of-battle-moby-dick?Printing=Foil
+
+# OP17 - The World's Strongest Warriors
+https://www.tcgplayer.com/product/708399/one-piece-card-game-the-worlds-strongest-warriors-nico-robin?Printing=Foil
+https://www.tcgplayer.com/product/712623/one-piece-card-game-the-worlds-strongest-warriors-theres-no-authority-in-the-world-that-lasts-forever?Printing=Foil
+https://www.tcgplayer.com/product/712031/one-piece-card-game-the-worlds-strongest-warriors-edwardnewgate-040?Printing=Foil
+https://www.tcgplayer.com/product/712659/one-piece-card-game-the-worlds-strongest-warriors-streusen-113?Printing=Foil
+https://www.tcgplayer.com/product/708210/one-piece-card-game-the-worlds-strongest-warriors-bennbeckman?Printing=Foil
+https://www.tcgplayer.com/product/710616/one-piece-card-game-the-worlds-strongest-warriors-luckyroux?Printing=Foil
+https://www.tcgplayer.com/product/712608/one-piece-card-game-the-worlds-strongest-warriors-limejuice?Printing=Foil
+https://www.tcgplayer.com/product/711424/one-piece-card-game-the-worlds-strongest-warriors-are-you-that-afraid-of-the-new-era?Printing=Foil
+https://www.tcgplayer.com/product/708076/one-piece-card-game-the-worlds-strongest-warriors-hongo?Printing=Foil
+https://www.tcgplayer.com/product/712613/one-piece-card-game-the-worlds-strongest-warriors-kaido-042?Printing=Foil
+https://www.tcgplayer.com/product/712648/one-piece-card-game-the-worlds-strongest-warriors-im-luffy-the-man-who-will-be-king-of-the-pirates?Printing=Foil
+https://www.tcgplayer.com/product/712625/one-piece-card-game-the-worlds-strongest-warriors-lead-performers?Printing=Foil
+https://www.tcgplayer.com/product/712636/one-piece-card-game-the-worlds-strongest-warriors-wo-ro-ro-ro-ro-i-think-ive-sobered-up?Printing=Foil
+https://www.tcgplayer.com/product/712602/one-piece-card-game-the-worlds-strongest-warriors-i-dont-have-time-to-chat-with-snot-nosed-brats?Printing=Foil
+https://www.tcgplayer.com/product/712594/one-piece-card-game-the-worlds-strongest-warriors-jozu?Printing=Foil
+https://www.tcgplayer.com/product/708075/one-piece-card-game-the-worlds-strongest-warriors-izo?Printing=Foil
+https://www.tcgplayer.com/product/708065/one-piece-card-game-the-worlds-strongest-warriors-kouzuki-oden?Printing=Foil
+https://www.tcgplayer.com/product/712660/one-piece-card-game-the-worlds-strongest-warriors-dont-you-know-that-even-in-the-cruel-world-of-pirates-theres-still-a-code-of-honor?Printing=Foil
+https://www.tcgplayer.com/product/708395/one-piece-card-game-the-worlds-strongest-warriors-ulti-and-page-one?Printing=Foil
+
+# The World's Strongest Warriors - 30 cents and up
+# https://www.tcgplayer.com/product/708074/one-piece-card-game-the-worlds-strongest-warriors-charlotte-pudding?Printing=Foil
+# https://www.tcgplayer.com/product/710615/one-piece-card-game-the-worlds-strongest-warriors-yamato?Printing=Foil
+# https://www.tcgplayer.com/product/712639/one-piece-card-game-the-worlds-strongest-warriors-gerd?Printing=Foil
+# https://www.tcgplayer.com/product/712089/one-piece-card-game-the-worlds-strongest-warriors-miss-buckingham-stussy?Printing=Foil
+# https://www.tcgplayer.com/product/712088/one-piece-card-game-the-worlds-strongest-warriors-charlotte-linlin-049?Printing=Foil
+# https://www.tcgplayer.com/product/709105/one-piece-card-game-the-worlds-strongest-warriors-sweet-3-generals?Printing=Foil
+# https://www.tcgplayer.com/product/708782/one-piece-card-game-the-worlds-strongest-warriors-jaguardsaul?Printing=Foil
+
+# EB01 - Extra Booster: Memorial Collection
+https://www.tcgplayer.com/product/544576/one-piece-card-game-extra-booster-memorial-collection-scarlet?Printing=Foil
+https://www.tcgplayer.com/product/544592/one-piece-card-game-extra-booster-memorial-collection-ganfall?Printing=Foil
+https://www.tcgplayer.com/product/544534/one-piece-card-game-extra-booster-memorial-collection-littleoars-jr?Printing=Foil
+
+# Extra Booster: Memorial Collection - 30 cents and up
+# https://www.tcgplayer.com/product/544565/one-piece-card-game-extra-booster-memorial-collection-blueno-033?Printing=Foil
+# https://www.tcgplayer.com/product/544557/one-piece-card-game-extra-booster-memorial-collection-mr-1-dazbonez?Printing=Foil
+# https://www.tcgplayer.com/product/544562/one-piece-card-game-extra-booster-memorial-collection-kalifa?Printing=Foil
+# https://www.tcgplayer.com/product/544577/one-piece-card-game-extra-booster-memorial-collection-spandine?Printing=Foil
+# https://www.tcgplayer.com/product/544599/one-piece-card-game-extra-booster-memorial-collection-kingdom-come?Printing=Foil
+# https://www.tcgplayer.com/product/544559/one-piece-card-game-extra-booster-memorial-collection-gum-gum-champion-rifle?Printing=Foil
+# https://www.tcgplayer.com/product/544540/one-piece-card-game-extra-booster-memorial-collection-kouzuki-hiyori?Printing=Foil
+# https://www.tcgplayer.com/product/544525/one-piece-card-game-extra-booster-memorial-collection-izo?Printing=Foil
+# https://www.tcgplayer.com/product/544526/one-piece-card-game-extra-booster-memorial-collection-kid-and-killer?Printing=Foil
+# https://www.tcgplayer.com/product/544572/one-piece-card-game-extra-booster-memorial-collection-conquerer-of-three-worlds-ragnaraku?Printing=Foil
+# https://www.tcgplayer.com/product/544588/one-piece-card-game-extra-booster-memorial-collection-finger-pistol?Printing=Foil
+# https://www.tcgplayer.com/product/544594/one-piece-card-game-extra-booster-memorial-collection-charlotte-flampe?Printing=Foil
+# https://www.tcgplayer.com/product/544542/one-piece-card-game-extra-booster-memorial-collection-sanji?Printing=Foil
+# https://www.tcgplayer.com/product/544553/one-piece-card-game-extra-booster-memorial-collection-edward-weevil?Printing=Foil
+# https://www.tcgplayer.com/product/544543/one-piece-card-game-extra-booster-memorial-collection-scratchmen-apoo?Printing=Foil
+# https://www.tcgplayer.com/product/544585/one-piece-card-game-extra-booster-memorial-collection-t-bone?Printing=Foil
+# https://www.tcgplayer.com/product/544536/one-piece-card-game-extra-booster-memorial-collection-theres-no-way-you-could-defeat-me?Printing=Foil
+# https://www.tcgplayer.com/product/544547/one-piece-card-game-extra-booster-memorial-collection-off-white?Printing=Foil
+
+# EB02 - Extra Booster: Anime 25th Collection
+https://www.tcgplayer.com/product/629124/one-piece-card-game-extra-booster-anime-25th-collection-portgasdace?Printing=Foil
+https://www.tcgplayer.com/product/629148/one-piece-card-game-extra-booster-anime-25th-collection-brook?Printing=Foil
+https://www.tcgplayer.com/product/629120/one-piece-card-game-extra-booster-anime-25th-collection-donquixote-rosinante?Printing=Foil
+https://www.tcgplayer.com/product/629158/one-piece-card-game-extra-booster-anime-25th-collection-jinbe?Printing=Foil
+https://www.tcgplayer.com/product/629150/one-piece-card-game-extra-booster-anime-25th-collection-monkeydgarp?Printing=Foil
+
+# Extra Booster: Anime 25th Collection - 30 cents and up
+# https://www.tcgplayer.com/product/629110/one-piece-card-game-extra-booster-anime-25th-collection-nami?Printing=Foil
+# https://www.tcgplayer.com/product/629135/one-piece-card-game-extra-booster-anime-25th-collection-franky?Printing=Foil
+# https://www.tcgplayer.com/product/629139/one-piece-card-game-extra-booster-anime-25th-collection-merry-go-041?Printing=Foil
+# https://www.tcgplayer.com/product/629114/one-piece-card-game-extra-booster-anime-25th-collection-we-are?Printing=Foil
+# https://www.tcgplayer.com/product/629162/one-piece-card-game-extra-booster-anime-25th-collection-uuuuus?Printing=Foil
+# https://www.tcgplayer.com/product/629133/one-piece-card-game-extra-booster-anime-25th-collection-nico-robin?Printing=Foil
+# https://www.tcgplayer.com/product/629112/one-piece-card-game-extra-booster-anime-25th-collection-buggy?Printing=Foil
+# https://www.tcgplayer.com/product/629091/one-piece-card-game-extra-booster-anime-25th-collection-tony-tonychopper?Printing=Foil
+# https://www.tcgplayer.com/product/629138/one-piece-card-game-extra-booster-anime-25th-collection-brand-new-world?Printing=Foil
+# https://www.tcgplayer.com/product/629098/one-piece-card-game-extra-booster-anime-25th-collection-the-peak?Printing=Foil
+# https://www.tcgplayer.com/product/629127/one-piece-card-game-extra-booster-anime-25th-collection-hope?Printing=Foil
+# https://www.tcgplayer.com/product/629151/one-piece-card-game-extra-booster-anime-25th-collection-kokoro-no-chizu?Printing=Foil
+# https://www.tcgplayer.com/product/629116/one-piece-card-game-extra-booster-anime-25th-collection-usopp?Printing=Foil
+# https://www.tcgplayer.com/product/629113/one-piece-card-game-extra-booster-anime-25th-collection-roronoa-zoro?Printing=Foil
+# https://www.tcgplayer.com/product/629156/one-piece-card-game-extra-booster-anime-25th-collection-sanji?Printing=Foil
+# https://www.tcgplayer.com/product/629090/one-piece-card-game-extra-booster-anime-25th-collection-sabo?Printing=Foil
+
+# EB03 - Extra Booster: One Piece Heroines Edition
+https://www.tcgplayer.com/product/672803/one-piece-card-game-extra-booster-one-piece-heroines-edition-shirahoshi?Printing=Foil
+https://www.tcgplayer.com/product/672745/one-piece-card-game-extra-booster-one-piece-heroines-edition-sugar?Printing=Foil
+https://www.tcgplayer.com/product/672793/one-piece-card-game-extra-booster-one-piece-heroines-edition-stussy?Printing=Foil
+https://www.tcgplayer.com/product/672751/one-piece-card-game-extra-booster-one-piece-heroines-edition-monet?Printing=Foil
+https://www.tcgplayer.com/product/672748/one-piece-card-game-extra-booster-one-piece-heroines-edition-hibari?Printing=Foil
+https://www.tcgplayer.com/product/672813/one-piece-card-game-extra-booster-one-piece-heroines-edition-s-snake?Printing=Foil
+https://www.tcgplayer.com/product/672759/one-piece-card-game-extra-booster-one-piece-heroines-edition-jewelry-bonney?Printing=Foil
+https://www.tcgplayer.com/product/672785/one-piece-card-game-extra-booster-one-piece-heroines-edition-lim?Printing=Foil
+https://www.tcgplayer.com/product/672789/one-piece-card-game-extra-booster-one-piece-heroines-edition-kujyaku?Printing=Foil
+https://www.tcgplayer.com/product/672812/one-piece-card-game-extra-booster-one-piece-heroines-edition-lilith?Printing=Foil
+https://www.tcgplayer.com/product/672769/one-piece-card-game-extra-booster-one-piece-heroines-edition-hina?Printing=Foil
+https://www.tcgplayer.com/product/672787/one-piece-card-game-extra-booster-one-piece-heroines-edition-ulti?Printing=Foil
+https://www.tcgplayer.com/product/672765/one-piece-card-game-extra-booster-one-piece-heroines-edition-isuka?Printing=Foil
+https://www.tcgplayer.com/product/672783/one-piece-card-game-extra-booster-one-piece-heroines-edition-charlotte-pudding?Printing=Foil
+https://www.tcgplayer.com/product/672753/one-piece-card-game-extra-booster-one-piece-heroines-edition-otama?Printing=Foil
+https://www.tcgplayer.com/product/672754/one-piece-card-game-extra-booster-one-piece-heroines-edition-carrot?Printing=Foil
+https://www.tcgplayer.com/product/672773/one-piece-card-game-extra-booster-one-piece-heroines-edition-marguerite?Printing=Foil
+https://www.tcgplayer.com/product/672799/one-piece-card-game-extra-booster-one-piece-heroines-edition-rebecca?Printing=Foil
+
+# Extra Booster: One Piece Heroines Edition - 30 cents and up
+# https://www.tcgplayer.com/product/672746/one-piece-card-game-extra-booster-one-piece-heroines-edition-nami-006?Printing=Foil
+# https://www.tcgplayer.com/product/672810/one-piece-card-game-extra-booster-one-piece-heroines-edition-yamato?Printing=Foil
+# https://www.tcgplayer.com/product/672781/one-piece-card-game-extra-booster-one-piece-heroines-edition-charlotte-linlin?Printing=Foil

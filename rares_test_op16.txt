@@ -1,0 +1,29 @@
+# Temporary test file: OP16 (The Time of Battle) rares only, for debugging
+# the scraper against the live site. Delete once scraper.py is verified.
+
+https://www.tcgplayer.com/product/696040/one-piece-card-game-the-time-of-battle-mr1dazbonez?Printing=Foil
+https://www.tcgplayer.com/product/696041/one-piece-card-game-the-time-of-battle-mr2bonkureibentham-055?Printing=Foil
+https://www.tcgplayer.com/product/694642/one-piece-card-game-the-time-of-battle-kouzuki-momonosuke-085?Printing=Foil
+https://www.tcgplayer.com/product/696053/one-piece-card-game-the-time-of-battle-koby?Printing=Foil
+https://www.tcgplayer.com/product/696000/one-piece-card-game-the-time-of-battle-littleoars-jr?Printing=Foil
+https://www.tcgplayer.com/product/696046/one-piece-card-game-the-time-of-battle-the-prisoners-are-rioting?Printing=Foil
+https://www.tcgplayer.com/product/696078/one-piece-card-game-the-time-of-battle-monkeydluffy-095?Printing=Foil
+https://www.tcgplayer.com/product/693827/one-piece-card-game-the-time-of-battle-marco?Printing=Foil
+https://www.tcgplayer.com/product/694978/one-piece-card-game-the-time-of-battle-borsalino?Printing=Foil
+https://www.tcgplayer.com/product/695995/one-piece-card-game-the-time-of-battle-vista?Printing=Foil
+https://www.tcgplayer.com/product/696064/one-piece-card-game-the-time-of-battle-buddha-sengoku?Printing=Foil
+https://www.tcgplayer.com/product/696086/one-piece-card-game-the-time-of-battle-catarina-devon?Printing=Foil
+https://www.tcgplayer.com/product/696019/one-piece-card-game-the-time-of-battle-monkeydluffy-034?Printing=Foil
+https://www.tcgplayer.com/product/696050/one-piece-card-game-the-time-of-battle-kuzan?Printing=Foil
+https://www.tcgplayer.com/product/696099/one-piece-card-game-the-time-of-battle-zehahahahaha?Printing=Foil
+https://www.tcgplayer.com/product/696024/one-piece-card-game-the-time-of-battle-lets-go-to-the-navy-headquarters?Printing=Foil
+https://www.tcgplayer.com/product/695997/one-piece-card-game-the-time-of-battle-bennbeckman?Printing=Foil
+https://www.tcgplayer.com/product/696093/one-piece-card-game-the-time-of-battle-vasco-shot?Printing=Foil
+https://www.tcgplayer.com/product/696013/one-piece-card-game-the-time-of-battle-jinbe-027?Printing=Foil
+https://www.tcgplayer.com/product/696088/one-piece-card-game-the-time-of-battle-sanjuanwolf?Printing=Foil
+https://www.tcgplayer.com/product/696016/one-piece-card-game-the-time-of-battle-trafalgar-law-030?Printing=Foil
+https://www.tcgplayer.com/product/696029/one-piece-card-game-the-time-of-battle-prisoner-of-impel-down?Printing=Foil
+https://www.tcgplayer.com/product/696079/one-piece-card-game-the-time-of-battle-yamato-096?Printing=Foil
+https://www.tcgplayer.com/product/696080/one-piece-card-game-the-time-of-battle-yamato-097?Printing=Foil
+https://www.tcgplayer.com/product/696074/one-piece-card-game-the-time-of-battle-nami?Printing=Foil
+https://www.tcgplayer.com/product/696004/one-piece-card-game-the-time-of-battle-moby-dick?Printing=Foil
