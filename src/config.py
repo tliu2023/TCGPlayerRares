@@ -13,8 +13,8 @@ MIN_SELLER_ORDER_TOTAL = float(os.getenv("MIN_SELLER_ORDER_TOTAL", "5.00"))
 # Input list of rares to check (names or TCGPlayer URLs).
 RARES_FILE = Path(os.getenv("RARES_FILE", ROOT_DIR / "rares.txt"))
 
-# Playwright persistent browser profile, reused so the TCGPlayer login/cart
-# session survives between runs.
+# Playwright persistent browser profile, reused so the TCGPlayer guest-cart
+# session (and any cookies from manually logging in) survives between runs.
 BROWSER_PROFILE_DIR = Path(os.getenv("BROWSER_PROFILE_DIR", ROOT_DIR / ".auth" / "browser_profile"))
 
 HEADLESS = os.getenv("HEADLESS", "true").lower() != "false"
@@ -49,12 +49,3 @@ CART_TARGETS_FILE = Path(os.getenv("CART_TARGETS_FILE", ROOT_DIR / "cart_targets
 # results (confirmed live), so the cart-add step can add several items per
 # seller from one page instead of visiting each listing individually.
 SELLER_SEARCH_URL = "https://www.tcgplayer.com/search/one-piece-card-game/product"
-
-# Optional: if set, auth.py will attempt an automated login so cart additions
-# are tied to the account. Never logged, never written to disk. The login
-# page is hCaptcha-protected, so automated login can still get challenged -
-# see auth.py.
-TCGPLAYER_USERNAME = os.getenv("TCGPLAYER_USERNAME")
-TCGPLAYER_PASSWORD = os.getenv("TCGPLAYER_PASSWORD")
-TCGPLAYER_LOGIN_URL = "https://www.tcgplayer.com/login"
-TCGPLAYER_ACCOUNT_URL = "https://www.tcgplayer.com/account"

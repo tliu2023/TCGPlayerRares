@@ -1,14 +1,15 @@
 """Entry point (step 2 of 2): reads cart_targets.json (written by
 `python -m src.main`) and adds each seller's qualifying listings to the
-cart, via their seller-scoped search-results page (see cart.py). Requires a
-logged-in session for the cart to persist against the account.
+cart, via their seller-scoped search-results page (see cart.py). Builds a
+guest cart - run headed (HEADLESS=false) and log in manually afterward,
+while the browser stays open, to carry the cart over to your account.
 """
 import json
 import logging
 
 from playwright.sync_api import sync_playwright
 
-from src import auth, cart, config
+from src import cart, config
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 logger = logging.getLogger(__name__)
@@ -35,12 +36,16 @@ def main() -> None:
             str(config.BROWSER_PROFILE_DIR), headless=config.HEADLESS, **launch_kwargs
         )
         page = context.new_page()
-        auth.ensure_logged_in(page)
 
         for seller in sellers:
             cart.add_seller_targets(page, seller)
 
-        context.close()
+        if config.HEADLESS:
+            context.close()
+        else:
+            input("Done adding to cart. Log in (or review/checkout) in the browser window, "
+                  "then press Enter here to close it...")
+            context.close()
 
 
 if __name__ == "__main__":
