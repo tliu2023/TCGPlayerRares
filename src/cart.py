@@ -54,7 +54,7 @@ def add_seller_targets(page: Page, seller: dict) -> None:
             if not product_id or product_id not in wanted or product_id in added:
                 continue
 
-            price_el = row.query_selector("[class*='price']")
+            price_el = row.query_selector(".inventory__price")
             price = parse_price(price_el.inner_text()) if price_el else None
             if price is None or price > config.MAX_PRICE:
                 continue

@@ -37,15 +37,21 @@ def main() -> None:
         )
         page = context.new_page()
 
-        for seller in sellers:
-            cart.add_seller_targets(page, seller)
-
-        if config.HEADLESS:
-            context.close()
-        else:
-            input("Done adding to cart. Log in (or review/checkout) in the browser window, "
-                  "then press Enter here to close it...")
-            context.close()
+        try:
+            for seller in sellers:
+                try:
+                    cart.add_seller_targets(page, seller)
+                except Exception:
+                    logger.exception("Failed processing seller '%s', skipping", seller["seller_name"])
+        finally:
+            # Always reached (even on error) so a headed browser never closes
+            # out from under you before you've had a chance to log in/pay.
+            if config.HEADLESS:
+                context.close()
+            else:
+                input("Done adding to cart (check the log above for any errors). Log in "
+                      "(or review/checkout) in the browser window, then press Enter here to close it...")
+                context.close()
 
 
 if __name__ == "__main__":
