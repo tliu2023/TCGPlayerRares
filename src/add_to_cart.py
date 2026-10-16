@@ -15,6 +15,17 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(mess
 logger = logging.getLogger(__name__)
 
 
+def _set_window_bounds(page, bounds: dict) -> None:
+    """Moves the real browser window via CDP - used to keep it off-screen
+    while unattended, then bring it back for the manual login step."""
+    try:
+        cdp = page.context.new_cdp_session(page)
+        window = cdp.send("Browser.getWindowForTarget")
+        cdp.send("Browser.setWindowBounds", {"windowId": window["windowId"], "bounds": bounds})
+    except Exception:
+        logger.debug("Could not reposition browser window (not supported in this environment)", exc_info=True)
+
+
 def main() -> None:
     if not config.CART_TARGETS_FILE.exists():
         logger.error("%s not found - run `python -m src.main` first", config.CART_TARGETS_FILE)
@@ -37,18 +48,25 @@ def main() -> None:
         )
         page = context.new_page()
 
+        if not config.HEADLESS:
+            # Push the window off-screen so it doesn't steal focus while
+            # unattended; it's moved back on-screen below before the login pause.
+            _set_window_bounds(page, {"windowState": "normal", "left": -2400, "top": -2400})
+
         try:
             for seller in sellers:
                 try:
                     cart.add_seller_targets(page, seller)
                 except Exception:
                     logger.exception("Failed processing seller '%s', skipping", seller["seller_name"])
+            cart.log_cart_summary(page)
         finally:
             # Always reached (even on error) so a headed browser never closes
             # out from under you before you've had a chance to log in/pay.
             if config.HEADLESS:
                 context.close()
             else:
+                _set_window_bounds(page, {"windowState": "normal", "left": 100, "top": 100, "width": 1280, "height": 900})
                 input("Done adding to cart (check the log above for any errors). Log in "
                       "(or review/checkout) in the browser window, then press Enter here to close it...")
                 context.close()

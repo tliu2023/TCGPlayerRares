@@ -50,6 +50,39 @@ def _select_max_quantity(page: Page, row) -> int:
     return max_quantity
 
 
+CART_BADGE_SELECTOR = ".mp-header__content__cart-count__chip"
+
+
+def _read_cart_count(page: Page) -> int:
+    el = page.query_selector(CART_BADGE_SELECTOR)
+    text = el.inner_text().strip() if el else ""
+    return int(text) if text.isdigit() else 0
+
+
+def _wait_for_cart_count(page: Page, expected: int) -> bool:
+    """Waits for the header cart badge to reach `expected`, confirming the
+    add-to-cart click actually landed before moving on to the next click.
+
+    A fixed sleep isn't enough here: firing add-to-cart clicks back-to-back
+    races the async requests that update the cart, and later ones can
+    silently clobber earlier ones (confirmed live - 9 rapid clicks left only
+    1 product in the real cart). Waiting for the badge to actually reach the
+    expected count is a real confirmation instead of a guess.
+    """
+    try:
+        page.wait_for_function(
+            """(expected) => {
+                const el = document.querySelector('.mp-header__content__cart-count__chip');
+                return el && el.textContent.trim() === String(expected);
+            }""",
+            arg=expected,
+            timeout=8000,
+        )
+        return True
+    except Exception:
+        return False
+
+
 def add_seller_targets(page: Page, seller: dict) -> None:
     """Adds every wanted product_id in `seller` to the cart, paging through
     that seller's filtered search results until all targets are found or
@@ -59,6 +92,7 @@ def add_seller_targets(page: Page, seller: dict) -> None:
     wanted = set(seller["product_ids"])
     added: set[str] = set()
     page_number = 1
+    cart_count = _read_cart_count(page)
 
     while wanted - added:
         page.goto(_search_url(seller_code, page_number), wait_until="domcontentloaded")
@@ -89,6 +123,15 @@ def add_seller_targets(page: Page, seller: dict) -> None:
             try:
                 quantity = _select_max_quantity(page, row)
                 add_button.click()
+                expected_count = cart_count + quantity
+                if _wait_for_cart_count(page, expected_count):
+                    cart_count = expected_count
+                else:
+                    logger.warning(
+                        "Cart badge didn't confirm product %s (expected %d) - may not have been added",
+                        product_id, expected_count,
+                    )
+                    cart_count = _read_cart_count(page)
                 added.add(product_id)
                 logger.info(
                     "Added to cart: %dx product %s from %s @ $%.2f", quantity, product_id, seller_name, price,
@@ -104,4 +147,20 @@ def add_seller_targets(page: Page, seller: dict) -> None:
             "%s: %d/%d targets not added (sold out, price changed, or page layout mismatch): %s",
             seller_name, len(missing), len(wanted), ", ".join(sorted(missing)),
         )
+
+
+def log_cart_summary(page: Page) -> None:
+    """Navigates to the real cart page and logs what's actually in it, so a
+    run's success can be confirmed without relying solely on click logs."""
+    page.goto("https://www.tcgplayer.com/cart", wait_until="networkidle")
+    try:
+        page.wait_for_selector("text=Shopping Cart", timeout=10000)
+    except Exception:
+        pass
+    text = page.evaluate("() => document.body.innerText")
+    if "Your cart is empty" in text:
+        logger.warning("Cart check: cart is EMPTY")
+        return
+    match = re.search(r"Items\n(\d+)", text)
+    logger.info("Cart check: %s item(s) in cart", match.group(1) if match else "unknown number of")
 
