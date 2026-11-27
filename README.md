@@ -9,7 +9,7 @@ Runs as two separate steps:
 1. **Scrape** (`src/main.py`) — reads `rares.txt`, scrapes current TCGPlayer listings for each rare, and accumulates a running per-seller total across every rare. Writes:
    - `seller_summary.txt` — human-readable, one line per seller whose running total exceeds `MIN_SELLER_ORDER_TOTAL` (TCGPlayer's $5 per-seller minimum), sorted cheapest cents/rare first.
    - `cart_targets.json` — machine-readable, the same qualifying sellers plus the exact product IDs to buy from each.
-2. **Add to cart** (`src/add_to_cart.py`) — reads `cart_targets.json` and for each seller pages through that seller's own filtered search results (foil, Rare, Near Mint, that seller only) adding matching products straight from the results list, building up a guest cart. When run headed (`HEADLESS=false`), the browser stays open afterward so you can log in and/or checkout manually - logging in at that point carries the guest cart over to your account.
+2. **Add to cart** (`src/add_to_cart.py`) — reads `cart_targets.json` and for each seller loads each target product's page filtered to that seller (`/product/{id}?seller={code}`, foil, Near Mint) and adds the listing, building up a guest cart. When run headed (`HEADLESS=false`), the browser stays open afterward so you can log in and/or checkout manually - logging in at that point carries the guest cart over to your account.
 
 Splitting these into two steps means you can review `seller_summary.txt` before spending anything, and re-run just the cart step without re-scraping.
 
@@ -18,7 +18,7 @@ Splitting these into two steps means you can review `seller_summary.txt` before 
 - **`rares.txt`** — plain text list of rare card names or TCGPlayer URLs to track. Since the pool of rares only changes when new sets release, this list is maintained manually rather than scraped dynamically.
 - **Scraper** (`src/scraper.py`) — fetches current listings/prices for each entry in `rares.txt`, paging through results until a listing exceeds `MAX_PRICE`.
 - **Filter/Aggregator** (`src/filters.py`) — accumulates a running per-seller total across all rares and applies the `MAX_PRICE`/`MIN_SELLER_ORDER_TOTAL` rules.
-- **Cart** (`src/cart.py`) — adds a seller's qualifying listings to the cart via their filtered search-results page.
+- **Cart** (`src/cart.py`) — adds a seller's qualifying listings to the cart via seller-filtered product pages.
 
 ## Configuration
 
@@ -69,7 +69,7 @@ python -m src.add_to_cart    # step 2
 - `src/rares_loader.py` — parses `rares.txt`.
 - `src/scraper.py` — Playwright scraping of TCGPlayer product pages.
 - `src/filters.py` — `SellerAggregator`: running per-seller totals, `summary()`, and `qualifying_targets()`.
-- `src/cart.py` — adds a seller's qualifying listings to the cart via their search-results page.
+- `src/cart.py` — adds a seller's qualifying listings to the cart via seller-filtered product pages.
 - `src/main.py` — step 1 entry point (scrape).
 - `src/add_to_cart.py` — step 2 entry point (cart-add).
 - `Makefile` — `make scrape` / `make add-to-cart` shortcuts.

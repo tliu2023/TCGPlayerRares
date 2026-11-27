@@ -44,8 +44,3 @@ SELLER_SUMMARY_FILE = Path(os.getenv("SELLER_SUMMARY_FILE", ROOT_DIR / "seller_s
 # Per-seller cart targets (machine-readable) written by the scrape run and
 # consumed by `python -m src.add_to_cart`, which runs as a separate step.
 CART_TARGETS_FILE = Path(os.getenv("CART_TARGETS_FILE", ROOT_DIR / "cart_targets.json"))
-
-# Lists a seller's matching inventory with add-to-cart buttons right in the
-# results (confirmed live), so the cart-add step can add several items per
-# seller from one page instead of visiting each listing individually.
-SELLER_SEARCH_URL = "https://www.tcgplayer.com/search/one-piece-card-game/product"

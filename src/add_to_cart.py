@@ -1,6 +1,6 @@
 """Entry point (step 2 of 2): reads cart_targets.json (written by
 `python -m src.main`) and adds each seller's qualifying listings to the
-cart, via their seller-scoped search-results page (see cart.py). Builds a
+cart, via seller-filtered product pages (see cart.py). Builds a
 guest cart - run headed (HEADLESS=false) and log in manually afterward,
 while the browser stays open, to carry the cart over to your account.
 """

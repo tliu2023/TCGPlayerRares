@@ -15,7 +15,7 @@ class RareCard:
 class Listing:
     """A single seller's listing for a given card."""
     card_name: str
-    product_id: str  # TCGPlayer product ID, used to match this card on the seller's search-results page.
+    product_id: str  # TCGPlayer product ID, used to load this card's seller-filtered product page.
     seller_name: str
     seller_url: str  # Seller's storefront URL, e.g. https://www.tcgplayer.com/sellers/{name}/{code}
     price: float
